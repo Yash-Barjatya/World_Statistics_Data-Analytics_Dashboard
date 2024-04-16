@@ -14,8 +14,7 @@ body {
 #title {
   position: relative;
   display: block;
-  color: #3366ff;
-  color: #33cfff;
+  color: #52ff54;
   height: 8%;
   width: 100%;
   font-size: 30px;
@@ -104,4 +103,8 @@ body {
 label {
   text-align: left;
   font-size: 12px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: green;
 }

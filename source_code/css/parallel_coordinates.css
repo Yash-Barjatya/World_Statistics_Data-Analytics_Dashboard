@@ -20,7 +20,8 @@
   font-family: Ubuntu, Tahoma, Helvetica, sans-serif;
 } */
 
-#parallel_coordinates_chart canvas, svg {
+#parallel_coordinates_chart canvas,
+svg {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,13 +34,13 @@
 }
 
 #parallel_coordinates_chart .brush rect.extent {
-  fill: rgba(100,100,100,0.15);
+  fill: rgba(100, 100, 100, 0.15);
   stroke: #ddd;
 }
 
 #parallel_coordinates_chart .brush:hover rect.extent {
   stroke: #222;
-  stroke-dasharray: 5,5;
+  stroke-dasharray: 5, 5;
 }
 
 #parallel_coordinates_chart .brush rect.extent:hover {
@@ -54,13 +55,15 @@
   fill: none;
 }
 
-#parallel_coordinates_chart .axis_pc line, #parallel_coordinates_chart .axis_pc path {
+#parallel_coordinates_chart .axis_pc line,
+#parallel_coordinates_chart .axis_pc path {
   fill: none;
   stroke: #777;
   stroke-width: 1;
 }
 
-#parallel_coordinates_chart .axis_pc line,  #parallel_coordinates_chart .axis_pc path {
+#parallel_coordinates_chart .axis_pc line,
+#parallel_coordinates_chart .axis_pc path {
   stroke: #777;
 }
 
@@ -102,7 +105,7 @@
 } */
 
 #parallel_coordinates_header button {
-  font-weight:bold;
+  font-weight: bold;
   margin: 0% 0.5%;
   /* font-size: 15px; */
 }
@@ -114,7 +117,8 @@ button#export-data:hover {
   color: #080;
 }
 
-button#hide-ticks:hover, button#exclude_data:hover {
+button#hide-ticks:hover,
+button#exclude_data:hover {
   color: #900;
 }
 
