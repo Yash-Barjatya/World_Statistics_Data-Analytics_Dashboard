@@ -1,4 +1,6 @@
-# Instructions to Run the Code
+# World Statistics Data Analytics Dashboard
+
+### Instructions to Run the Code
 
 To run the code, follow these steps:
 
