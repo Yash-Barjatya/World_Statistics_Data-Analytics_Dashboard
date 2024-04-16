@@ -3,7 +3,7 @@
   display: block;
   width: 100%;
   height: 10%;
-  /* color: red; */
+  /* background-color: red; */
 }
 
 #overall_comparison {
@@ -18,6 +18,13 @@
   padding: 10px;
   overflow-y: auto;
   /* border: 1px solid white; */
+}
+
+#left_menu h3 {
+  color: #52ff54;
+  /* text-align: center; */
+  margin-left: 2%;
+  text-transform: uppercase;
 }
 
 /* #feature_slider{

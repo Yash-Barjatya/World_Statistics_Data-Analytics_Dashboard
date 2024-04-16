@@ -15,6 +15,7 @@ body {
   position: relative;
   display: block;
   color: #52ff54;
+  text-transform: uppercase;
   height: 8%;
   width: 100%;
   font-size: 30px;

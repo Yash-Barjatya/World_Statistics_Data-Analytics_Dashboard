@@ -32,6 +32,11 @@
   margin: 0.5% 0%;
 }
 
+#region_graph_div h3 {
+  color: #52ff54;
+  text-transform: uppercase;
+}
+
 #region_graph_div .row:hover {
   font-size: 14px;
   line-height: 1.3em;
@@ -41,7 +46,8 @@
   color: #555;
 }
 
-#region_graph_div.color-block, .color-bar {
+#region_graph_div.color-block,
+.color-bar {
   display: inline-block;
   height: 8px;
   width: 8px;
